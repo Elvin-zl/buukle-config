@@ -19,8 +19,6 @@
         <module>buukle-config-plugin</module>
         <module>buukle-config-service</module>
         <module>buukle-config-web</module>
-        <module>buukle-config-plugin</module>
     </modules>
-
 
 </project>
