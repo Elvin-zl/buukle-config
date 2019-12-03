@@ -10,7 +10,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 import org.springframework.session.web.http.CookieSerializer;
 import org.springframework.session.web.http.DefaultCookieSerializer;
 
-@MapperScan({"top.buukle.config.dao","top.buukle.util.mvc"})
+@MapperScan({"top.buukle.config.dao","top.buukle.common.mvc"})
 @SpringBootApplication(scanBasePackages={"top.buukle.config.*"})
 @EnableFeignClients(basePackages = {"top.buukle.*"})
 @EnableRedisHttpSession
