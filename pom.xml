@@ -6,6 +6,7 @@
         <artifactId>buukle-main</artifactId>
         <groupId>top.buukle</groupId>
         <version>1.0.1.RELEASE</version>
+        <relativePath>../buukle-main/pom.xml</relativePath>
     </parent>
 
     <artifactId>buukle-config</artifactId>
